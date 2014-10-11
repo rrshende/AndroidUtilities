@@ -8,5 +8,12 @@
     <string name="phoneNumber">9028241812</string>
     <string name="address">5/2, Shivanand Hsg</string>
     <string name="imageDesc">Real View</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_details">Details</string>
+    <string name="menu_flat">Flat</string>
+    <string name="menu_amenities">Amenities</string>
+    <string name="menu_trends">Trends</string>
+    <string name="menu_location">Location</string>
+    <string name="menu_aerial">Aerial</string>
 
 </resources>

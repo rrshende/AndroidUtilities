@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_details"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="withText"
+        android:title="@string/menu_details"/>
+    <item
+        android:id="@+id/action_flat"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="withText"
+        android:title="@string/menu_flat"/>
+    <item
+        android:id="@+id/action_amenities"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_amenities"/>
+    <item
+        android:id="@+id/action_location"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_location"/>
+    <item
+        android:id="@+id/action_aerial"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_aerial"/>
+    <item
+        android:id="@+id/action_trends"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_trends"/>
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="never|withText"
+        android:title="@string/menu_help"/>
+
+</menu>

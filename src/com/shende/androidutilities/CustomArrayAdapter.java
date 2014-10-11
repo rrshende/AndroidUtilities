@@ -17,7 +17,6 @@ public class CustomArrayAdapter extends ArrayAdapter<String> {
 		super(context, R.layout.activity_main, values);
 		this.context = context;
 		this.values = values;
-		System.out.println("rlgksgk");
 	}
 
 	@Override
@@ -29,7 +28,6 @@ public class CustomArrayAdapter extends ArrayAdapter<String> {
 		ImageView imageView = (ImageView) rowView.findViewById(R.id.imageView1);
 		price.setText(values[position]);
 		imageView.setImageResource(R.drawable.ic_launcher);
-
 		return rowView;
 	}
 }
